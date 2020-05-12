@@ -1,6 +1,6 @@
 function FIS = create_FIS (MF_I,MF_O,Rules)
 
-%MFs = [MF(1) , MF(2) , ... , MF(N)]
+%MFs = [MF(1) , MF(2) , ... , MF(N)];
 
 for i = 1:numel(MF_I)
     FIS.Input(i).MF = MF_I(i);
